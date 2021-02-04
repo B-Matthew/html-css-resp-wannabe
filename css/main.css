@@ -1,0 +1,43 @@
+@media screen and (max-width: 420px)  {
+  .row {
+    width: auto;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 100%;
+    float: none;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 100%;
+    float: none;
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    width: 100%;
+    float: none;
+    margin-top: 40px;
+  }
+
+  #lezioni img {
+    height: 140px;
+    width: auto;
+    margin-top: 30px ;
+  }
+
+   #steps img{
+    height: 170px;
+    width: auto;
+    margin: 15px 0;
+  }
+
+  #why .row img {
+  height: 100px;
+  width: auto;
+  }
+}
